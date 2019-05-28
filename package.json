@@ -1,0 +1,32 @@
+{
+  "name": "pynklynn.github.io",
+  "version": "0.0.1",
+  "description": "pynklynn.github.io - an EZWC-based project",
+  "author": "Will Steinmetz <willsteinmetz@me.com>",
+  "keywords": [
+    "ezwc",
+    "webcomponents"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -l 8080",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@vaadin/router": "^1.2.0",
+    "@webcomponents/webcomponentsjs": "^2.2.10"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "css-loader": "^2.1.1",
+    "ezwc-cli": "^0.19.0",
+    "ezwc-loader": "^0.2.0",
+    "keroseen-ui": "^0.2.0",
+    "sass-loader": "^7.1.0",
+    "serve": "^11.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}

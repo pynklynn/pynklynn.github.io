@@ -1,0 +1,20 @@
+@import 'node_modules/keroseen-ui/src/components/variables';
+@import 'node_modules/keroseen-ui/src/components/utilities';
+@import 'node_modules/keroseen-ui/src/components/resets';
+@import 'node_modules/keroseen-ui/src/components/shared-nav';
+
+@import 'node_modules/keroseen-ui/src/components/top-nav';
+@import 'node_modules/keroseen-ui/src/components/containers';
+
+@import './colors';
+
+@include keroseen-resets();
+
+body {
+  @include has-keroseen-top-nav();
+  background-color: color("grey", "lighten-2");
+  color: color("grey", "darken-3");
+  font-family: 'Open Sans', Helvetica, Verdana, Arial, sans-serif;
+}
+
+@include keroseen-containers();

@@ -1,0 +1,21 @@
+<template> 
+  <section class="pl-home-content">
+    <div class="pl-home-content-left">
+      <img src="./public/pynklynn-logo.svg" alt="PynkLynn logo" />
+    </div>
+    <div class="pl-home-content-right">
+      <h1>PynkLynn: a route to web-based software.</h1>
+      <!-- <h3>Open Source Projects</h3> -->
+    </div>
+  </section>
+</template>
+
+<script selector="app-home">
+  class AppHome extends HTMLElement {
+    constructor() {
+      super();
+    }
+  }
+</script>
+
+<style lang="scss" src="./app-home.ezwc.scss"></style>

@@ -1,0 +1,32 @@
+:host {
+  display: block;
+}
+// @import '../sass/_component-base.scss';
+@import '../../node_modules/keroseen-ui/src/components/_variables.scss';
+
+.pl-home-content-left,
+.no-mobile {
+  display: none;
+}
+
+@media screen and (min-width: $keroseen-screen-sm) {
+  .pl-home-content {
+    align-items: flex-start;
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .pl-home-content-left {
+    display: block;
+    flex-basis: 25%;
+  }
+
+  .pl-home-content-right {
+    flex-basis: 75%;
+    padding-left: 2rem;
+  }
+
+  .no-mobile {
+    display: block;
+  }
+}

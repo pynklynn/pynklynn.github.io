@@ -1,0 +1,39 @@
+<template>
+  <header class="pl-top-nav">
+    <span class="pl-top-nav-menu-button">&#8942;</span>
+    <span class="pl-top-nav-identifier">
+      <img src="./public/pynklynn-logo.svg" aria-hidden="true" class="pl-top-nav-identifier-image">
+      PynkLynn
+    </span>
+    <section class="pl-top-nav-container">
+      <nav class="pl-top-nav-main">
+        <a href="./" class="pl-nav-link">Home</a>
+        <a href="https://www.github.com/pynklynn" target="_blank" rel="noopener" class="pl-nav-link">GitHub</a>
+      </nav>
+    </section>
+  </header>
+</template>
+
+<script selector="pl-top-nav">
+class TopNav extends HTMLElement {
+  constructor() {
+    super();
+
+    this._topNavButton = this.shadowRoot.querySelector('.pl-top-nav-menu-button');
+  }
+
+  connectedCallback() {
+    this._topNavButton.addEventListener('click', this._toggleMobileNav);
+  }
+
+  disconnectedCallback() {
+    this._topNavButton.removeEventListener('click', this._toggleMobileNav);
+  }
+
+  _toggleMobileNav(event) {
+    event.target.parentNode.classList.toggle('open');
+  }
+}
+</script>
+
+<style lang="scss" src="./top-nav.ezwc.scss"></style>

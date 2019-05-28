@@ -1,0 +1,79 @@
+@import '../../../node_modules/keroseen-ui/src/components/variables';
+@import '../../../node_modules/keroseen-ui/src/components/utilities';
+@import '../../../node_modules/keroseen-ui/src/components/resets';
+@import '../../../node_modules/keroseen-ui/src/components/shared-nav';
+@import '../../../node_modules/keroseen-ui/src/components/top-nav';
+
+@import '../../assets/styles/colors';
+
+@include keroseen-resets();
+
+:host {
+  display: block;
+}
+
+.pl-top-nav {
+  @include keroseen-top-nav();
+  background-color: color("pynk", "base");
+  color: color("shades", "white");
+  z-index: 900;
+
+  @include keroseen-top-nav-fixed();
+
+  &.open {
+    .pl-top-nav-container {
+      @include keroseen-top-nav-mobile-open();
+    }
+  }
+
+  .pl-top-nav-menu-button {
+    @include keroseen-nav-mobile-menu();
+
+    z-index: 1000;
+  }
+
+  .pl-top-nav-container {
+    background-color: color("pynk", "base");
+    z-index: 950;
+
+    @include keroseen-top-nav-container();
+
+    @media (max-width: $keroseen-screen-xs) {
+      padding-top: keroseen-px-to-rem(50px)
+    }
+
+    .pl-top-nav-main {
+      @include keroseen-top-nav-main();
+    }
+  }
+
+  .pl-top-nav-identifier {
+    @include keroseen-top-nav-identifier();
+
+    display: inline-flex;
+    position: reltiave;
+    z-index: 1000;
+  }
+
+  .pl-top-nav-identifier-image {
+    margin: keroseen-px-to-rem(-5px) keroseen-px-to-rem(5px) 0 keroseen-px-to-rem(-5px);
+    height: keroseen-px-to-rem(40px);
+
+    @media screen and (min-width: $keroseen-screen-sm) {
+      height: keroseen-px-to-rem(50px);
+    }
+  }
+
+  .pl-nav-link {
+    @include keroseen-top-nav-link();
+    @include keroseen-top-nav-first-link();
+    color: color("shades", "white");
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: darken(color("shades", "white"), 5%);
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,214 @@
+$pynk-base: #d94991;
+$pynk: (
+  // "lighten-5": lighten($pynk-base, 0.25), 
+  // "lighten-4": lighten($pynk-base, 0.2), 
+  // "lighten-3": lighten($pynk-base, 0.15), 
+  "lighten-2": lighten($pynk-base, 0.1), 
+  "lighten-1": lighten($pynk-base, 0.05), 
+  base: $pynk-base, 
+  "darken-1": darken($pynk-base, 0.05), 
+  "darken-2": darken($pynk-base, 0.1), 
+  // "darken-3": darken($pynk-base, 0.15), 
+  // "darken-4": darken($pynk-base, 0.2),
+  // "darken-5": darken($pynk-base, 0.25)
+);
+
+$cottoncandy-base: #fdb4f9;
+$cottoncandy: (
+  // "lighten-5": lighten($cottoncandy-base, 0.25), 
+  // "lighten-4": lighten($cottoncandy-base, 0.2), 
+  // "lighten-3": lighten($cottoncandy-base, 0.15), 
+  "lighten-2": lighten($cottoncandy-base, 0.1), 
+  "lighten-1": lighten($cottoncandy-base, 0.05), 
+  base: $cottoncandy-base, 
+  "darken-1": darken($cottoncandy-base, 0.05), 
+  "darken-2": darken($cottoncandy-base, 0.1),
+  // "darken-3": darken($cottoncandy-base, 0.15),
+  // "darken-4": darken($cottoncandy-base, 0.2)
+);
+
+$twilight-base: #00335e;
+$twilight: (
+  "lighten-5": lighten($twilight-base, 0.25), 
+  "lighten-4": lighten($twilight-base, 0.2), 
+  "lighten-3": lighten($twilight-base, 0.15), 
+  "lighten-2": lighten($twilight-base, 0.1), 
+  "lighten-1": lighten($twilight-base, 0.05), 
+  base: $twilight-base, 
+  "darken-1": darken($twilight-base, 0.05), 
+  "darken-2": darken($twilight-base, 0.1),
+  "darken-3": darken($twilight-base, 0.15),
+  "darken-4": darken($twilight-base, 0.2)
+);
+
+$chartreuse-base: #cfd857;
+$chartreuse: (
+  "lighten-5": lighten($chartreuse-base, 0.25), 
+  "lighten-4": lighten($chartreuse-base, 0.2), 
+  "lighten-3": lighten($chartreuse-base, 0.15), 
+  "lighten-2": lighten($chartreuse-base, 0.1), 
+  "lighten-1": lighten($chartreuse-base, 0.05), 
+  base: $chartreuse-base, 
+  "darken-1": darken($chartreuse-base, 0.05), 
+  "darken-2": darken($chartreuse-base, 0.1),
+  "darken-3": darken($chartreuse-base, 0.15),
+  "darken-4": darken($chartreuse-base, 0.2)
+);
+
+$carrot-base: #f78e1b;
+$carrot: (
+  "lighten-5": lighten($carrot-base, 0.25), 
+  "lighten-4": lighten($carrot-base, 0.2), 
+  "lighten-3": lighten($carrot-base, 0.15),
+  "lighten-2": lighten($carrot-base, 0.1),
+  "lighten-1": lighten($carrot-base, 0.05), base: $carrot-base,
+  "darken-1": darken($carrot-base, 0.05),
+  "darken-2": darken($carrot-base, 0.1),
+  "darken-3": darken($carrot-base, 0.15),
+  "darken-4": darken($carrot-base, 0.2)
+);
+
+$tomato-base: #cd2602;
+$tomato: (
+  "lighten-5": lighten($tomato-base, 0.25),
+  "lighten-4": lighten($tomato-base, 0.2),
+  "lighten-3": lighten($tomato-base, 0.15),
+  "lighten-2": lighten($tomato-base, 0.1),
+  "lighten-1": lighten($tomato-base, 0.05), base: $tomato-base,
+  "darken-1": darken($tomato-base, 0.05),
+  "darken-2": darken($tomato-base, 0.1),
+  "darken-3": darken($tomato-base, 0.15),
+  "darken-4": darken($tomato-base, 0.2)
+);
+
+$maroon-base: #873e4f;
+$maroon: (
+  // "lighten-5": lighten($maroon-base, 0.25),
+  // "lighten-4": lighten($maroon-base, 0.2),
+  // "lighten-3": lighten($maroon-base, 0.15),
+  "lighten-2": lighten($maroon-base, 0.1),
+  "lighten-1": lighten($maroon-base, 0.05), base: $maroon-base,
+  "darken-1": darken($maroon-base, 0.05),
+  "darken-2": darken($maroon-base, 0.1),
+  // "darken-3": darken($maroon-base, 0.15),
+  // "darken-4": darken($maroon-base, 0.2)
+);
+
+$teal-base: #5ab8a8;
+$teal: (
+  "lighten-5": lighten($teal-base, 0.25),
+  "lighten-4": lighten($teal-base, 0.2),
+  "lighten-3": lighten($teal-base, 0.15),
+  "lighten-2": lighten($teal-base, 0.1),
+  "lighten-1": lighten($teal-base, 0.05), base: $teal-base,
+  "darken-1": darken($teal-base, 0.05),
+  "darken-2": darken($teal-base, 0.1),
+  "darken-3": darken($teal-base, 0.15),
+  "darken-4": darken($teal-base, 0.2)
+);
+
+$cream-base: #f9f3b5;
+$cream: (
+  "lighten-5": lighten($cream-base, 0.25),
+  "lighten-4": lighten($cream-base, 0.2),
+  "lighten-3": lighten($cream-base, 0.15),
+  "lighten-2": lighten($cream-base, 0.1),
+  "lighten-1": lighten($cream-base, 0.05), base: $cream-base,
+  "darken-1": darken($cream-base, 0.05),
+  "darken-2": darken($cream-base, 0.1),
+  "darken-3": darken($cream-base, 0.15),
+  "darken-4": darken($cream-base, 0.2)
+);
+
+$parrot-base: #4db81a;
+$parrot: (
+  "lighten-5": lighten($parrot-base, 0.25),
+  "lighten-4": lighten($parrot-base, 0.2),
+  "lighten-3": lighten($parrot-base, 0.15),
+  "lighten-2": lighten($parrot-base, 0.1),
+  "lighten-1": lighten($parrot-base, 0.05), base: $parrot-base,
+  "darken-1": darken($parrot-base, 0.05),
+  "darken-2": darken($parrot-base, 0.1),
+  "darken-3": darken($parrot-base, 0.15),
+  "darken-4": darken($parrot-base, 0.2)
+);
+
+$grey: (
+  "lighten-5": #fafafa,
+  "lighten-4": whitesmoke,
+  "lighten-3": #eeeeee,
+  "lighten-2": #e0e0e0,
+  "lighten-1": #bdbdbd,
+  "base": #9e9e9e,
+  "darken-1": #757575,
+  "darken-2": #616161,
+  "darken-3": #424242,
+  "darken-4": #212121);
+
+$shades: (
+  "black": black,
+  "white": white,
+  "transparent": transparent);
+
+$colors: (
+  "grey": $grey,
+  "shades": $shades,
+  "pynk": $pynk,
+  "cottoncandy": $cottoncandy,
+  // "twilight": $twilight,
+  // "chartreuse": $chartreuse,
+  // "carrot": $carrot,
+  // "tomato": $tomato,
+  "maroon": $maroon,
+  // "teal": $teal,
+  // "cream": $cream,
+  // "parrot": $parrot
+);
+
+// Color Classes
+
+@each $color_name, $color in $colors {
+  @each $color_type, $color_value in $color {
+    @if $color_type ==
+  "base" {
+      .#{$color_name} {
+        background-color: $color_value;
+      }
+      .#{$color_name}-text {
+        color: $color_value;
+      }
+    }
+    @else {
+      .#{$color_name}.#{$color_type} {
+        background-color: $color_value;
+      }
+      .#{$color_name}-text.text-#{$color_type} {
+        color: $color_value;
+      }
+    }
+  }
+}
+
+// Shade classes
+@each $color, $color_value in $shades {
+  .#{$color} {
+    background-color: $color_value !important;
+  }
+  .#{$color}-text {
+    color: $color_value !important;
+  }
+}
+
+// usage: color("name_of_color", "type_of_color")
+// to avoid to repeating map-get($colors, ...)
+
+@function color($color, $type) {
+  @if map-has-key($colors, $color) {
+    $curr_color: map-get($colors, $color);
+    @if map-has-key($curr_color, $type) {
+      @return map-get($curr_color, $type);
+    }
+  }
+  @warn "Unknown `#{name}` in $colors.";
+  @return null;
+}
