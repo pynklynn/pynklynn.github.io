@@ -1,0 +1,50 @@
+<template>
+  <article class="pl-card pl-card-co-planar">
+    <div class="pl-card-container">
+      <div class="pl-card-title"></div>
+      <div class="pl-card-content">
+        <slot></slot>
+      </div>
+    </div>
+    <div class="pl-card-figure">
+      <img class="pl-card-image">
+    </div>
+  </article>
+</template>
+
+<script selector="pl-project-card">
+  class ProjectCard extends HTMLElement {
+    constructor() {
+      super();
+    }
+
+    connectedCallback() {
+      this.shadowRoot.querySelector('.pl-card-title').innerHTML = this.cardTitle;
+      const cardImage = this.shadowRoot.querySelector('.pl-card-image');
+      cardImage.src = this.cardGraphic;
+      cardImage.alt = this.cardTitle;
+    }
+
+    get observedAttributes() {
+      return [ 'card-title', 'card-graphic' ];
+    }
+
+    set cardTitle(newValue) {
+      this.setAttribute('card-title', newValue);
+    }
+
+    get cardTitle() {
+      return this.getAttribute('card-title');
+    }
+
+    set cardGraphic(newValue) {
+      this.setAttribute('card-graphic', newValue);
+    }
+
+    get cardGraphic() {
+      return this.getAttribute('card-graphic');
+    }
+  }
+</script>
+
+<style lang="scss" src="./project-card.ezwc.scss"></style>

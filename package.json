@@ -1,6 +1,6 @@
 {
   "name": "pynklynn.github.io",
-  "version": "0.0.1",
+  "version": "2019.5.1",
   "description": "pynklynn.github.io - an EZWC-based project",
   "author": "Will Steinmetz <willsteinmetz@me.com>",
   "keywords": [
@@ -20,8 +20,8 @@
   "devDependencies": {
     "concurrently": "^4.1.0",
     "css-loader": "^2.1.1",
-    "ezwc-cli": "^0.19.0",
-    "ezwc-loader": "^0.2.0",
+    "ezwc-cli": "^0.19.1",
+    "ezwc-loader": "^0.2.1",
     "keroseen-ui": "^0.2.0",
     "sass-loader": "^7.1.0",
     "serve": "^11.0.0",

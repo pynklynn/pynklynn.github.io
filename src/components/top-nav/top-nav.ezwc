@@ -18,11 +18,10 @@
 class TopNav extends HTMLElement {
   constructor() {
     super();
-
-    this._topNavButton = this.shadowRoot.querySelector('.pl-top-nav-menu-button');
   }
 
   connectedCallback() {
+    this._topNavButton = this.shadowRoot.querySelector('.pl-top-nav-menu-button');
     this._topNavButton.addEventListener('click', this._toggleMobileNav);
   }
 

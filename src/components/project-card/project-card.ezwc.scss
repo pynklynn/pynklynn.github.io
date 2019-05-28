@@ -1,0 +1,68 @@
+@import '../../../node_modules/keroseen-ui/src/components/variables';
+@import '../../../node_modules/keroseen-ui/src/components/utilities';
+@import '../../../node_modules/keroseen-ui/src/components/resets';
+@import '../../../node_modules/keroseen-ui/src/components/cards';
+
+@import '../../assets/styles/colors';
+
+@include keroseen-resets();
+
+:host {
+  display: block;
+}
+
+.pl-card {
+  @include keroseen-card();
+  background-color: color("grey", "lighten-4");
+
+  .pl-card-content {
+    @include keroseen-card-content();
+  }
+
+  .pl-card-title {
+    @include keroseen-card-title();
+  }
+
+  .pl-card-figure {
+    @include keroseen-card-figure();
+
+    // .pl-card-title {
+    //   @include keroseen-card-figure-title();
+    //   color: white;
+    // }
+  }
+
+  // .pl-card-subtitle {
+  //   @include keroseen-card-subtitle();
+  //   color: #999;
+  // }
+
+  .pl-card-image {
+    @include keroseen-card-image();
+  }
+
+  // .pl-card-actions {
+  //   @include keroseen-card-actions();
+
+  //   .pl-card-action-item {
+  //     @include keroseen-card-action-item();
+
+  //     &:hover,
+  //     &:focus {
+  //       background-color: rgba(red, .1);
+  //     }
+  //   }
+  // }
+
+  &.pl-card-co-planar {
+    @include keroseen-card-co-planar();
+
+    .pl-card-container {
+      @include keroseen-card-co-planar-container();
+    }
+
+    .pl-card-figure {
+      @include keroseen-card-co-planar-image();
+    }
+  }
+}

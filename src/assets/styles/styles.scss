@@ -2,6 +2,7 @@
 @import 'node_modules/keroseen-ui/src/components/utilities';
 @import 'node_modules/keroseen-ui/src/components/resets';
 @import 'node_modules/keroseen-ui/src/components/shared-nav';
+@import 'node_modules/keroseen-ui/src/components/grid';
 
 @import 'node_modules/keroseen-ui/src/components/top-nav';
 @import 'node_modules/keroseen-ui/src/components/containers';
@@ -17,4 +18,19 @@ body {
   font-family: 'Open Sans', Helvetica, Verdana, Arial, sans-serif;
 }
 
+a:link,
+a:visited,
+a:active {
+  color: color("maroon", "lighten-2");
+}
+
+a:hover,
+a:focus {
+  color: color("maroon", "base");
+}
+
 @include keroseen-containers();
+
+.pl-grid {
+  @include keroseen-grid();
+}

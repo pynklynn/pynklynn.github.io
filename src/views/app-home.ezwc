@@ -1,16 +1,34 @@
 <template> 
   <section class="pl-home-content">
-    <div class="pl-home-content-left">
+    <aside class="pl-home-content-left">
       <img src="./public/pynklynn-logo.svg" alt="PynkLynn logo" />
-    </div>
+    </aside>
     <div class="pl-home-content-right">
-      <h1>PynkLynn: a route to web-based software.</h1>
-      <!-- <h3>Open Source Projects</h3> -->
+      <h1>PynkLynn: a route to web-based software</h1>
+      <h3>Open Source Projects</h3>
+      <section class="pl-grid grid-12">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <pl-project-card card-title="EZWC" card-graphic="./public/ezwc.svg">
+              EZWC is a CLI tool to easily create web components written in a format similar to Vue single file components into native web components.
+              <br>
+              <a href="https://github.com/pynklynn/ezwc" target="_blank" rel="noopener">EZWC on GitHub</a>
+            </pl-project-card>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <pl-project-card card-title="EZWC Loader" card-graphic="./public/ezwc.svg">
+              EZWC loader for use with webpack to be able to import .ezwc files in your poject.
+              <br>
+              <a href="https://github.com/pynklynn/ezwc-loader" target="_blank" rel="noopener">EZWC Loader on GitHub</a>
+            </pl-project-card>
+          </div>
+        </div>
+      </section>
     </div>
   </section>
 </template>
 
-<script selector="app-home">
+<script selector="app-home" no-shadow>
   class AppHome extends HTMLElement {
     constructor() {
       super();

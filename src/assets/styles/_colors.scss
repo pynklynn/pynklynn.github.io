@@ -1,136 +1,142 @@
 $pynk-base: #d94991;
 $pynk: (
-  // "lighten-5": lighten($pynk-base, 0.25), 
-  // "lighten-4": lighten($pynk-base, 0.2), 
-  // "lighten-3": lighten($pynk-base, 0.15), 
-  "lighten-2": lighten($pynk-base, 0.1), 
-  "lighten-1": lighten($pynk-base, 0.05), 
+  // "lighten-5": lighten($pynk-base, 25%), 
+  // "lighten-4": lighten($pynk-base, 20%), 
+  // "lighten-3": lighten($pynk-base, 15%), 
+  "lighten-2": lighten($pynk-base, 10%), 
+  "lighten-1": lighten($pynk-base, 5%), 
   base: $pynk-base, 
-  "darken-1": darken($pynk-base, 0.05), 
-  "darken-2": darken($pynk-base, 0.1), 
-  // "darken-3": darken($pynk-base, 0.15), 
-  // "darken-4": darken($pynk-base, 0.2),
-  // "darken-5": darken($pynk-base, 0.25)
+  "darken-1": darken($pynk-base, 5%), 
+  "darken-2": darken($pynk-base, 10%), 
+  // "darken-3": darken($pynk-base, 15%), 
+  // "darken-4": darken($pynk-base, 20%),
+  // "darken-5": darken($pynk-base, 25%)
 );
 
 $cottoncandy-base: #fdb4f9;
 $cottoncandy: (
-  // "lighten-5": lighten($cottoncandy-base, 0.25), 
-  // "lighten-4": lighten($cottoncandy-base, 0.2), 
-  // "lighten-3": lighten($cottoncandy-base, 0.15), 
-  "lighten-2": lighten($cottoncandy-base, 0.1), 
-  "lighten-1": lighten($cottoncandy-base, 0.05), 
+  // "lighten-5": lighten($cottoncandy-base, 25%), 
+  // "lighten-4": lighten($cottoncandy-base, 20%), 
+  // "lighten-3": lighten($cottoncandy-base, 15%), 
+  "lighten-2": lighten($cottoncandy-base, 10%), 
+  "lighten-1": lighten($cottoncandy-base, 5%), 
   base: $cottoncandy-base, 
-  "darken-1": darken($cottoncandy-base, 0.05), 
-  "darken-2": darken($cottoncandy-base, 0.1),
-  // "darken-3": darken($cottoncandy-base, 0.15),
-  // "darken-4": darken($cottoncandy-base, 0.2)
+  "darken-1": darken($cottoncandy-base, 5%), 
+  "darken-2": darken($cottoncandy-base, 10%),
+  // "darken-3": darken($cottoncandy-base, 15%),
+  // "darken-4": darken($cottoncandy-base, 20%)
 );
 
 $twilight-base: #00335e;
 $twilight: (
-  "lighten-5": lighten($twilight-base, 0.25), 
-  "lighten-4": lighten($twilight-base, 0.2), 
-  "lighten-3": lighten($twilight-base, 0.15), 
-  "lighten-2": lighten($twilight-base, 0.1), 
-  "lighten-1": lighten($twilight-base, 0.05), 
+  "lighten-5": lighten($twilight-base, 25%), 
+  "lighten-4": lighten($twilight-base, 20%), 
+  "lighten-3": lighten($twilight-base, 15%), 
+  "lighten-2": lighten($twilight-base, 10%), 
+  "lighten-1": lighten($twilight-base, 5%), 
   base: $twilight-base, 
-  "darken-1": darken($twilight-base, 0.05), 
-  "darken-2": darken($twilight-base, 0.1),
-  "darken-3": darken($twilight-base, 0.15),
-  "darken-4": darken($twilight-base, 0.2)
+  "darken-1": darken($twilight-base, 5%), 
+  "darken-2": darken($twilight-base, 10%),
+  "darken-3": darken($twilight-base, 15%),
+  "darken-4": darken($twilight-base, 20%)
 );
 
 $chartreuse-base: #cfd857;
 $chartreuse: (
-  "lighten-5": lighten($chartreuse-base, 0.25), 
-  "lighten-4": lighten($chartreuse-base, 0.2), 
-  "lighten-3": lighten($chartreuse-base, 0.15), 
-  "lighten-2": lighten($chartreuse-base, 0.1), 
-  "lighten-1": lighten($chartreuse-base, 0.05), 
+  "lighten-5": lighten($chartreuse-base, 25%), 
+  "lighten-4": lighten($chartreuse-base, 20%), 
+  "lighten-3": lighten($chartreuse-base, 15%), 
+  "lighten-2": lighten($chartreuse-base, 10%), 
+  "lighten-1": lighten($chartreuse-base, 5%), 
   base: $chartreuse-base, 
-  "darken-1": darken($chartreuse-base, 0.05), 
-  "darken-2": darken($chartreuse-base, 0.1),
-  "darken-3": darken($chartreuse-base, 0.15),
-  "darken-4": darken($chartreuse-base, 0.2)
+  "darken-1": darken($chartreuse-base, 5%), 
+  "darken-2": darken($chartreuse-base, 10%),
+  "darken-3": darken($chartreuse-base, 15%),
+  "darken-4": darken($chartreuse-base, 20%)
 );
 
 $carrot-base: #f78e1b;
 $carrot: (
-  "lighten-5": lighten($carrot-base, 0.25), 
-  "lighten-4": lighten($carrot-base, 0.2), 
-  "lighten-3": lighten($carrot-base, 0.15),
-  "lighten-2": lighten($carrot-base, 0.1),
-  "lighten-1": lighten($carrot-base, 0.05), base: $carrot-base,
-  "darken-1": darken($carrot-base, 0.05),
-  "darken-2": darken($carrot-base, 0.1),
-  "darken-3": darken($carrot-base, 0.15),
-  "darken-4": darken($carrot-base, 0.2)
+  "lighten-5": lighten($carrot-base, 25%), 
+  "lighten-4": lighten($carrot-base, 20%), 
+  "lighten-3": lighten($carrot-base, 15%),
+  "lighten-2": lighten($carrot-base, 10%),
+  "lighten-1": lighten($carrot-base, 5%),
+  base: $carrot-base,
+  "darken-1": darken($carrot-base, 5%),
+  "darken-2": darken($carrot-base, 10%),
+  "darken-3": darken($carrot-base, 15%),
+  "darken-4": darken($carrot-base, 20%)
 );
 
 $tomato-base: #cd2602;
 $tomato: (
-  "lighten-5": lighten($tomato-base, 0.25),
-  "lighten-4": lighten($tomato-base, 0.2),
-  "lighten-3": lighten($tomato-base, 0.15),
-  "lighten-2": lighten($tomato-base, 0.1),
-  "lighten-1": lighten($tomato-base, 0.05), base: $tomato-base,
-  "darken-1": darken($tomato-base, 0.05),
-  "darken-2": darken($tomato-base, 0.1),
-  "darken-3": darken($tomato-base, 0.15),
-  "darken-4": darken($tomato-base, 0.2)
+  "lighten-5": lighten($tomato-base, 25%),
+  "lighten-4": lighten($tomato-base, 20%),
+  "lighten-3": lighten($tomato-base, 15%),
+  "lighten-2": lighten($tomato-base, 10%),
+  "lighten-1": lighten($tomato-base, 5%),
+  base: $tomato-base,
+  "darken-1": darken($tomato-base, 5%),
+  "darken-2": darken($tomato-base, 10%),
+  "darken-3": darken($tomato-base, 15%),
+  "darken-4": darken($tomato-base, 20%)
 );
 
 $maroon-base: #873e4f;
 $maroon: (
-  // "lighten-5": lighten($maroon-base, 0.25),
-  // "lighten-4": lighten($maroon-base, 0.2),
-  // "lighten-3": lighten($maroon-base, 0.15),
-  "lighten-2": lighten($maroon-base, 0.1),
-  "lighten-1": lighten($maroon-base, 0.05), base: $maroon-base,
-  "darken-1": darken($maroon-base, 0.05),
-  "darken-2": darken($maroon-base, 0.1),
-  // "darken-3": darken($maroon-base, 0.15),
-  // "darken-4": darken($maroon-base, 0.2)
+  // "lighten-5": lighten($maroon-base, 25%),
+  // "lighten-4": lighten($maroon-base, 20%),
+  // "lighten-3": lighten($maroon-base, 15%),
+  "lighten-2": lighten($maroon-base, 10%),
+  "lighten-1": lighten($maroon-base, 5%),
+  base: $maroon-base,
+  "darken-1": darken($maroon-base, 5%),
+  "darken-2": darken($maroon-base, 10%),
+  // "darken-3": darken($maroon-base, 15%),
+  // "darken-4": darken($maroon-base, 20%)
 );
 
 $teal-base: #5ab8a8;
 $teal: (
-  "lighten-5": lighten($teal-base, 0.25),
-  "lighten-4": lighten($teal-base, 0.2),
-  "lighten-3": lighten($teal-base, 0.15),
-  "lighten-2": lighten($teal-base, 0.1),
-  "lighten-1": lighten($teal-base, 0.05), base: $teal-base,
-  "darken-1": darken($teal-base, 0.05),
-  "darken-2": darken($teal-base, 0.1),
-  "darken-3": darken($teal-base, 0.15),
-  "darken-4": darken($teal-base, 0.2)
+  "lighten-5": lighten($teal-base, 25%),
+  "lighten-4": lighten($teal-base, 20%),
+  "lighten-3": lighten($teal-base, 15%),
+  "lighten-2": lighten($teal-base, 10%),
+  "lighten-1": lighten($teal-base, 5%),
+  base: $teal-base,
+  "darken-1": darken($teal-base, 5%),
+  "darken-2": darken($teal-base, 10%),
+  "darken-3": darken($teal-base, 15%),
+  "darken-4": darken($teal-base, 20%)
 );
 
 $cream-base: #f9f3b5;
 $cream: (
-  "lighten-5": lighten($cream-base, 0.25),
-  "lighten-4": lighten($cream-base, 0.2),
-  "lighten-3": lighten($cream-base, 0.15),
-  "lighten-2": lighten($cream-base, 0.1),
-  "lighten-1": lighten($cream-base, 0.05), base: $cream-base,
-  "darken-1": darken($cream-base, 0.05),
-  "darken-2": darken($cream-base, 0.1),
-  "darken-3": darken($cream-base, 0.15),
-  "darken-4": darken($cream-base, 0.2)
+  "lighten-5": lighten($cream-base, 25%),
+  "lighten-4": lighten($cream-base, 20%),
+  "lighten-3": lighten($cream-base, 15%),
+  "lighten-2": lighten($cream-base, 10%),
+  "lighten-1": lighten($cream-base, 5%),
+  base: $cream-base,
+  "darken-1": darken($cream-base, 5%),
+  "darken-2": darken($cream-base, 10%),
+  "darken-3": darken($cream-base, 15%),
+  "darken-4": darken($cream-base, 20%)
 );
 
 $parrot-base: #4db81a;
 $parrot: (
-  "lighten-5": lighten($parrot-base, 0.25),
-  "lighten-4": lighten($parrot-base, 0.2),
-  "lighten-3": lighten($parrot-base, 0.15),
-  "lighten-2": lighten($parrot-base, 0.1),
-  "lighten-1": lighten($parrot-base, 0.05), base: $parrot-base,
-  "darken-1": darken($parrot-base, 0.05),
-  "darken-2": darken($parrot-base, 0.1),
-  "darken-3": darken($parrot-base, 0.15),
-  "darken-4": darken($parrot-base, 0.2)
+  "lighten-5": lighten($parrot-base, 25%),
+  "lighten-4": lighten($parrot-base, 20%),
+  "lighten-3": lighten($parrot-base, 15%),
+  "lighten-2": lighten($parrot-base, 10%),
+  "lighten-1": lighten($parrot-base, 5%),
+  base: $parrot-base,
+  "darken-1": darken($parrot-base, 5%),
+  "darken-2": darken($parrot-base, 10%),
+  "darken-3": darken($parrot-base, 15%),
+  "darken-4": darken($parrot-base, 20%)
 );
 
 $grey: (
@@ -169,8 +175,7 @@ $colors: (
 
 @each $color_name, $color in $colors {
   @each $color_type, $color_value in $color {
-    @if $color_type ==
-  "base" {
+    @if $color_type == "base" {
       .#{$color_name} {
         background-color: $color_value;
       }
