@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-xs-12 col-md-6">
             <pl-project-card card-title="EZWC" card-graphic="./public/ezwc.svg">
-              EZWC is a CLI tool to easily create web components written in a format similar to Vue single file components into native web components.
+              EZWC is a CLI tool to easily create web components written in a format similar to Vue single file components that are transpiled to native web components.
               <br>
               <a href="https://github.com/pynklynn/ezwc" target="_blank" rel="noopener">EZWC on GitHub</a>
             </pl-project-card>
