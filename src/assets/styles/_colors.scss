@@ -32,12 +32,20 @@ $pl-colors: (
   @if ($color-name == 'transparent') {
     @return transparent;
   }
-  @if ($shade-type == 'base') {
-    @return $color;
-  } @else if ($shade-type == 'darken') {
-    @return darken($color, ($shade-value * 5));
+  @if ($color-name == "grey") {
+    @if ($shade-type == 'base') {
+      @return map-get($color, "base");
+    } @else {
+      @return map-get($color, "#{$shade-type}-#{$shade-value}");
+    }
   } @else {
-    @return lighten($color, ($shade-value * 5));
+    @if ($shade-type == 'base') {
+      @return $color;
+    } @else if ($shade-type == 'darken') {
+      @return darken($color, ($shade-value * 5));
+    } @else {
+      @return lighten($color, ($shade-value * 5));
+    }
   }
 }
 

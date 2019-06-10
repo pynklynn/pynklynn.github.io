@@ -13,7 +13,7 @@
 
 .pl-card {
   @include keroseen-card();
-  background-color: color("grey", "lighten-4");
+  background-color: get-color("grey", "lighten", 4);
 
   .pl-card-content {
     @include keroseen-card-content();

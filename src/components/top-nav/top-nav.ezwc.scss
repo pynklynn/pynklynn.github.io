@@ -14,8 +14,8 @@
 
 .pl-top-nav {
   @include keroseen-top-nav();
-  background-color: color("pynk", "base");
-  color: color("shades", "white");
+  background-color: get-color("pynk");
+  color: get-color("white");
   z-index: 900;
 
   @include keroseen-top-nav-fixed();
@@ -33,7 +33,7 @@
   }
 
   .pl-top-nav-container {
-    background-color: color("pynk", "base");
+    background-color: get-color("pynk");
     z-index: 950;
 
     @include keroseen-top-nav-container();
@@ -67,12 +67,12 @@
   .pl-nav-link {
     @include keroseen-top-nav-link();
     @include keroseen-top-nav-first-link();
-    color: color("shades", "white");
+    color: get-color("white");
     text-decoration: none;
 
     &:hover,
     &:focus {
-      color: get-color("white", 1);
+      color: get-color("white", "darken", 1);
       text-decoration: underline;
     }
   }

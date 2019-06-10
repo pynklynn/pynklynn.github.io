@@ -11,22 +11,24 @@
 
 @include keroseen-resets();
 
+@include generate-colors();
+
 body {
   @include has-keroseen-top-nav();
-  background-color: color("grey", "lighten-2");
-  color: color("grey", "darken-3");
+  background-color: get-color("grey", "lighten", 2);
+  color: get-color("grey", "darken", 3);
   font-family: 'Open Sans', Helvetica, Verdana, Arial, sans-serif;
 }
 
 a:link,
 a:visited,
 a:active {
-  color: color("maroon", "lighten-2");
+  color: get-color("maroon", "lighten", 2);
 }
 
 a:hover,
 a:focus {
-  color: color("maroon", "base");
+  color: get-color("maroon");
 }
 
 @include keroseen-containers();
