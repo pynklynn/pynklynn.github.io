@@ -72,7 +72,7 @@
 
     &:hover,
     &:focus {
-      color: darken(color("shades", "white"), 5%);
+      color: get-color("white", 1);
       text-decoration: underline;
     }
   }
