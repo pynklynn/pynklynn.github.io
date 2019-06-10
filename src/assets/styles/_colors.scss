@@ -58,18 +58,15 @@ $pl-colors: (
       $darken: if($type == "base", "darken-", "text-darken-");
 
       .#{$selector} {
-        $color-value: if($color-name == "grey", map-get($color, "base"), $color);
-        #{$property}: $color-value;
+        #{property}: get-color($color-name);
 
         @for $i from 1 through 5 {
           &.#{$lighten}#{$i} {
-            $lighten-value: if($color-name == "grey", map-get($color, "lighten-#{$i}"), lighten($color-value, (5% * $i)));
-            #{$property}: $lighten-value;
+            #{$property}: get-color($color-name, "lighten", $i);
           }
 
           &.#{$darken}#{$i} {
-            $darken-value: if($color-name == "grey", map-get($color, "darken-#{$i}"), darken($color-value, (5% * $i)));
-            #{$property}: $darken-value;
+            #{$property}: get-color($color-name, "darken", $i);
           }
         }
       }
