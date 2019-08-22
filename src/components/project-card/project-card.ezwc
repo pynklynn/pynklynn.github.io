@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="pl-card-figure">
-      <img class="pl-card-image">
+      <img class="pl-card-image"/>
     </div>
   </article>
 </template>
